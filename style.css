@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+.color1 {color: #222522;}
+.color2 {color: #3f433e;}
+.color3 {color: #676b63;}
+.color4 {color: #9c9f93;}
+.color5 {color: #dfe0d0;}
+
+html{
+    /*Permite deslizar cuando hace clic en los links del menu*/
+    scroll-behavior: smooth;
+
+}
+/* Menu*/
+.contenedor-header{
+    background: #222522;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #dfe0d0;
+    text-decoration: none;
+}
