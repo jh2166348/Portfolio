@@ -36,6 +36,30 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #dfe0d0;
+    color: #b08e6b;
     text-decoration: none;
+}
+.contenedor-header header ul{
+
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: beige;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: #7a5c3c;
+}
+.nav-responsive{
+    background-color: #7a5c3c;
+    color: beige;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
 }
