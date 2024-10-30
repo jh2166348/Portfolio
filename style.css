@@ -5,11 +5,6 @@
     margin: 0;
     padding: 0;
 }
-.color1 {color: #222522;}
-.color2 {color: #3f433e;}
-.color3 {color: #676b63;}
-.color4 {color: #9c9f93;}
-.color5 {color: #dfe0d0;}
 
 html{
     /*Permite deslizar cuando hace clic en los links del menu*/
@@ -34,7 +29,7 @@ html{
     padding: 15px 20px;
 }
 .contenedor-header header .logo a{
-    font-family: 'Righteous';
+    
     font-size: 36px;
     color: #b08e6b;
     text-decoration: none;
@@ -62,4 +57,124 @@ html{
     border-radius: 5px;
     cursor: pointer;
     display: none;
+}
+/* Home Section */
+
+.inicio{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(https://ada32f2f0c.imgdist.com/pub/bfra/03nsw2uq/wvh/i76/pwf/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #371d16;
+    display: flex;
+    align-items: center;
+}
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #887766;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img {
+    margin-top: 40px;
+    border: 10px solid #dfe0d0;
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 30px;
+      
+}
+.inicio .contenido-banner h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: #dfe0d0;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #dfe0d0;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+.inicio .contenido-banner .redes a:hover{
+    background-color: #371d16;
+}
+/* About me Section */
+.sobremi{
+    background-color:#222522 ;
+    color: beige;
+    padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+}
+.sobremi .contenido-seccion p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.sobremi .contenido-seccion p span{
+    color: #887766;
+    font-weight: bold;
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid beige;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: beige;
+    position: relative;
+    z-index: 10;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:  #887766 ;
+    z-index: -1;
+    transition: 1s;
+}
+.sobremi button:hover .overlay{
+    width: 100%;
+
+}
+/* Skills Section */
+.skills{
+    background-color:#252A2E ;
+    color: beige;
+    padding: 50px 20px;
+}
+.skills h2{
+    font-size: 48px;
+    text-align: center;
+    padding: 20px 0;
+}
+.skills h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 0 0 20px 0;
+    color: #7a5c3c;
 }
